@@ -4,7 +4,7 @@ node{
    }
    stage('clean and package') {
      bat 'echo hi devops'
-     bat "D:\Devops_ Backup\Jenkins_practice\pipeline.bat"
+     bat 'D:\Devops_ Backup\Jenkins_practice\pipeline.bat'
              
    }
 }
