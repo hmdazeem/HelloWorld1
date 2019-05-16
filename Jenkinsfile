@@ -3,12 +3,7 @@ node{
      git 'https://github.com/hmdazeem/HelloWorld1'
    }
    stage('Setting the variables values') {
-    steps {
-         bash '''#!/bin/bash
-                 echo "hello world" 
-         '''
-    }
-}
+     bat "D:\Devops_ Backup\Jenkins_practice\pipeline.bat"
              
    }
 }
