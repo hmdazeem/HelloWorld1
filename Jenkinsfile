@@ -3,6 +3,6 @@ node{
      git 'https://github.com/hmdazeem/HelloWorld1'
    }
    stage('compile package'){
-    bat sh 'mvn clean package'
+    bat 'mvn clean package'
    }
 }
