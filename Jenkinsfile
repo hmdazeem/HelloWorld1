@@ -5,8 +5,6 @@ node{
    stage('clean and package') {
      bat 'echo hi devops'
      bat 'echo Hi pipeline'
-     bat '''
-         call "d:\\run.bat"
-         '''
+     bat 'start cmd.exe /c D:\\run.bat'
   }
 }
