@@ -7,6 +7,6 @@ node{
      bat 'echo Hi pipeline'
      bat 'start cmd.exe /c D:\\run.bat'
      
-   } 
+   
   }
 }
